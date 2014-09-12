@@ -1,0 +1,20 @@
+██████ Once the sell by date has passed, Quality degrades twice as fast
+██████ Continue decrease till it is passed sell by date. 
+██████ For loop till 1 past sell by date?
+	
+
+- The Quality of an item is never negative
+██████ Check each item does not equal to zero
+
+- "Aged Brie" actually increases in Quality the older it gets
+	Check that Aged brie increases in Quality
+██████ Check that other items decrease in quality
+
+- "Backstage passes", like aged brie, increases in Quality as it's SellIn value approaches;
+██████Same as Brie? But does it stop at any point?
+
+- The Quality of an item is never more than 50
+	Check each item is below 50?
+
+- "Sulfuras", being a legendary item, never has to be sold or decreases in Quality
+██████ Check that Sulfuras does not decreases
