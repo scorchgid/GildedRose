@@ -1,17 +1,14 @@
 package Object;
 
-
 public class Item {
     public String name;
-	public int sellIn; 
+    public int sellIn; 
     public int quality; 
-    
     public Item(String name, int sellIn, int quality) {
 		this.setName(name);
 		this.setSellIn(sellIn);
 		this.setQuality(quality);
-	}
-    
+	}    
 	/* Generated getter and setter code */
     public String getName() {
 		return name;
@@ -31,11 +28,10 @@ public class Item {
 	public void setQuality(int quality) {
 		this.quality = quality;
 	}
-public void increment()
-{
-    quality++;
+    public void increment(){
+        quality++;
+    }
+    void updateQuality(){
+
+    }
 }
-
-}
-
-
