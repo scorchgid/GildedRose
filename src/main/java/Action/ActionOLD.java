@@ -1,7 +1,8 @@
 package Action;
 import Data.GildedRose;
+import Data.GildedRose;
 /** @author Gideon Sassoon */
-public class Action {
+public class ActionOLD {
     public static void updateQuality() {
         for (int i = 0; i < GildedRose.getItems().size(); i++) {
             if ((!"Aged Brie".equals(GildedRose.getItems().get(i).getName())) && !"Backstage passes to a TAFKAL80ETC concert".equals(GildedRose.getItems().get(i).getName())) {
@@ -38,7 +39,8 @@ public class Action {
                                 GildedRose.getItems().get(i).setQuality(GildedRose.getItems().get(i).getQuality() - 1);
                             }
                         }
-                    } else {
+                    } 
+                    else {
                         GildedRose.getItems().get(i).setQuality(GildedRose.getItems().get(i).getQuality() - GildedRose.getItems().get(i).getQuality());
                     }
                 } else {

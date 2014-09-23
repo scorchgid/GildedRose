@@ -1,5 +1,5 @@
 package Data;
-import Action.Action;
+
 import Object.Item;
 import java.util.ArrayList;
 import java.util.List;
@@ -16,7 +16,7 @@ public class GildedRose {
         Items.add(new Item("Sulfuras, Hand of Ragnaros", 0, 80));                   // Line 33, Line 65
         Items.add(new Item("Backstage passes to a TAFKAL80ETC concert", 15, 20));   //Line 29 Line 45 Line 74
         Items.add(new Item("Conjured Mana Cake", 3, 6));                            // Line!!!!
-        Action.updateQuality();
+        Item.updateQuality();
     }
     public static List<Item> getItems() {
         return Items;
